@@ -1,8 +1,11 @@
 ---
-
 name: goutoujunshi
-description: Phân tích sự kiện, pháp luật, thể chế, lợi ích, quyền lực, rủi ro và chiến lược trong bối cảnh Việt Nam. Phân biệt rõ sự kiện, suy luận, giả thuyết và dự đoán; ưu tiên đối chiếu giữa quy định chính thức và thực tế vận hành.
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+description: "Phân tích sự kiện, pháp luật, thể chế, lợi ích, quyền lực, rủi ro và chiến lược trong bối cảnh Việt Nam. Phân biệt rõ sự kiện, suy luận, giả thuyết và dự đoán; ưu tiên đối chiếu giữa quy định chính thức và thực tế vận hành."
+---
+
+# Goutoujunshi — Vietnam Analysis
+
+## 1. Mục đích
 
 # Goutoujunshi — Vietnam Analysis
 
