@@ -1,4 +1,4 @@
 interface:
-display_name: "狗头军师 · Vietnam Analysis"
-short_description: "Phân tích pháp luật, thể chế, lợi ích, rủi ro và chiến lược trong bối cảnh Việt Nam"
-default_prompt: "使用 $goutoujunshi 按 Vietnam Analysis 分析当前问题，并区分事实、推断、假设与预测。
+  display_name: "狗头军师 · Vietnam Analysis"
+  short_description: "分析越南法律、行政与现实制度环境中的事件、利益、风险与策略"
+  default_prompt: "使用 $goutoujunshi 按 Vietnam Analysis 分析当前问题，并区分事实、推断、假设与预测。"
