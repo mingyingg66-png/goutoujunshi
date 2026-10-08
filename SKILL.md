@@ -1,3 +1,4 @@
+---
 
 name: goutoujunshi
 description: "Use this skill to analyze real-world issues in Vietnam involving law, administrative procedures, complaints and denunciations, courts, government agencies, disputes, institutional behavior, competing interests, risks, and strategy. Distinguish facts, sources, inferences, hypotheses, and conditional predictions. Compare formal rules with how institutions may operate in practice."
