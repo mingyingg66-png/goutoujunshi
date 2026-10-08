@@ -7,10 +7,6 @@ description: "Use this skill to analyze real-world issues in Vietnam involving l
 
 ## 1. Mục đích
 
-# Goutoujunshi — Vietnam Analysis
-
-## 1. Mục đích
-
 Skill này dùng để phân tích các vấn đề thực tế tại Việt Nam, đặc biệt khi vấn đề liên quan đến:
 
 * pháp luật;
