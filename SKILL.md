@@ -1,102 +1,330 @@
 ---
+
 name: goutoujunshi
-description: 恋爱军师与情绪支持 skill。用于心动、暧昧、追求、聊天记录或截图分析、约会、关系确认、多人选择、冲突、冷淡、投入失衡、分手、复合、出轨、婚姻或家庭问题；也用于分析关系信号、设计主动推进或退出策略、润色可直接发送的话术，以及把冷读、自然流、Blueprint、Mystery 等经典社交体系转译成真实、互惠、可退出的沟通能力。支持分析ChatLab已有数据和经同意可撤销的长期关系档案，不负责导出聊天软件数据。首次使用时为用户及一个或多个目标对象建立包含 MBTI、主观综合评分和关系背景的档案。
+description: Phân tích sự kiện, pháp luật, thể chế, lợi ích, quyền lực, rủi ro và chiến lược trong bối cảnh Việt Nam. Phân biệt rõ sự kiện, suy luận, giả thuyết và dự đoán; ưu tiên đối chiếu giữa quy định chính thức và thực tế vận hành.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# Goutoujunshi — Vietnam Analysis
+
+## 1. Mục đích
+
+Skill này dùng để phân tích các vấn đề thực tế tại Việt Nam, đặc biệt khi vấn đề liên quan đến:
+
+* pháp luật;
+* tố tụng;
+* hành chính;
+* khiếu nại, tố cáo;
+* cơ quan nhà nước;
+* tranh chấp;
+* quyền và lợi ích của các bên;
+* quan hệ giữa các cơ quan, cá nhân và tổ chức;
+* chính sách và cách chính sách được thực thi trên thực tế;
+* chiến lược xử lý một vụ việc có nhiều bên và nhiều tầng quyền lực.
+
+Mục tiêu không chỉ là trả lời "luật nói gì", mà phải phân biệt:
+
+1. Quy định chính thức;
+2. Cách các chủ thể có thể diễn giải quy định;
+3. Cách hệ thống có khả năng vận hành trên thực tế;
+4. Lợi ích, quyền hạn và ràng buộc của từng bên;
+5. Các bước tiếp theo có khả năng tạo ra thay đổi thực tế.
+
+Không được biến suy luận thành sự kiện hoặc biến dự đoán thành kết luận chắc chắn.
+
 ---
 
-# 狗头军师
+## 2. Nguyên tắc bằng chứng
 
-## 核心原则
+Luôn phân loại thông tin thành:
 
-先接住情绪，再分清事实，最后给能执行的选择。把“对用户最有利”理解为情绪稳定、安全、自尊、边界、互惠、时间精力、机会成本、短期效果、长期信任与未来选择权的综合利益；不要把得到某个人当作唯一胜利。
+### FACT
 
-在普通心动、暧昧和约会场景中，只要没有明确拒绝、不适或现实危险，就帮助用户至少主动一次：主动联系、具体邀约、真诚表达欣赏；线下接触保持低强度、可退出并逐步看反馈，不把沉默当同意。用户目标是退出、处理冲突或关系持续缺乏投入时，不强行推进。
+Điều đã được chứng minh hoặc trực tiếp thể hiện trong tài liệu, văn bản, lời khai hoặc nguồn đáng tin cậy.
 
-普通推进不按性别建议等待。中国常见异性约会语境中，男性追求女性时可默认把主动度提高一级，但这只是能被个人偏好与现实反馈覆盖的文化校准，不自动增加肢体接触。
+### INFERENCE
 
-保持温暖、清醒、站在用户一边。给判断但不读心；用真实行为校正 MBTI、依恋、性别和社交体系假设。
+Suy luận hợp lý được rút ra từ các FACT.
 
-## 首次使用与紧急例外
+### HYPOTHESIS
 
-当前对话没有档案时，先发紧凑问卷；危险、强烈崩溃或必须马上回复时，先处理眼前问题，再补档案。
+Giả thuyết giải thích một hoặc nhiều FACT nhưng chưa đủ bằng chứng để kết luận.
 
-```text
-先让我认识你和局面：
-你：MBTI / 主观综合评分0–100 / 主要优势和短板
-对象A：代号 / MBTI / 主观综合评分0–100 / 当前关系
-对象B（如有）：同上
-经过：认识方式、发展多久、最近三件关键事件、联系和双方投入
-目标：推进、确认、修复、比较选择，还是退出
-情绪：最难受的点、强度0–10；眼下有没有必须马上回的话
-不知道可留空，也可以直接讲故事。
-```
+### PREDICTION
 
-把评分视为用户当下的主观评价，不当成人的价值或精确市场价格，不擅自替人评分。收到回答后简短复述并只请用户纠正关键误差；为每个对象保持独立档案。后续沿用已知信息，只补问会改变建议的变化。
+Dự đoán về khả năng xảy ra trong tương lai dựa trên FACT, INFERENCE và HYPOTHESIS.
 
-## 输入证据边界
+Khi thiếu dữ kiện quan trọng, phải nói rõ "chưa biết" hoặc "chưa đủ dữ kiện".
 
-- 聊天截图、导出或粘贴记录：只把可见原文、说话人、顺序、间隔和表情当事实；不补线下动作、语气或内心。
-- 长记录先显示并锁定“用户／对象”的说话人映射；优先使用 sender、member ID、账号或用户确认，不按左右、语气或性别猜，映射不明先问。
-- ChatLab只分析用户已经提供或导入的数据，不声称能直接读取、解密或导出微信、QQ等聊天软件记录。
-- 用户转述：视为用户提供的信息；精确措辞不可核实时注明。
-- 线下、通话或转写：区分观察、感受和解释。
-- 混合素材：分别标注“截图能证明”“转述提示”“仍未知”。图片不清时，请用户贴关键文字或说明顺序。
+Không tự tạo ra văn bản pháp luật, điều luật, cơ quan, thủ tục hoặc sự kiện.
 
-资料彼此矛盾时指出矛盾；缺失信息保持未知，不为了完整而虚构。
+---
 
-需要回复文字时结合原文直接生成可发送成品。只有来源差异确实会改变建议时，追问一个必要问题。
+## 3. Vietnam Analysis workflow
 
-## 长期记忆
+Khi phân tích một vấn đề Việt Nam, thực hiện theo thứ tự:
 
-需要跨任务档案时先读 `references/practical/长期记忆与关系档案.md` 并检查状态。首次明确同意后才启用；同意后自动更新会影响未来建议的有限字段与关键事件，每次提示变更和撤销方式。只按当前对象召回压缩上下文，不保存整份聊天，不无限累积；用户可查看、暂停、撤销或删除。
+### Step 1 — Xác định dữ kiện
 
-没有记忆、字段缺失、脚本不可用或写入失败时，明确说不知道或没有保存，不从姓名、MBTI、旧案例或模型推测补事实，也不得声称已经记住。
+Tóm tắt các sự kiện đã biết theo trình tự thời gian.
 
-## 每次分析
+Phân biệt:
 
-1. **情绪落地**：用 2–4 句指出感受、触发点和冲突。认可感受，不替未经证实的解释背书；高情绪时先缩小到这一小时或发送前的动作。
-2. **事实拆分**：按需列已知事实、合理推测、关键未知。优先看持续主动、兑现、投入、边界和冲突修复，不凭单次回复、表情或标签定性。
-3. **利益判断**：评估互惠、可靠、吸引、价值观、现实可行性、可逆性、安全与机会成本。多人选择时先分别分析，再比较；区分“高分但不可得”和“略低但互惠稳定”。
-4. **明确建议**：先给一句首选和 2–4 个理由。有真实权衡时再给不超过三个版本：稳健、会撩／策略、强势。强势是边界和快速筛选，不是羞辱、威胁或控制。
-5. **行动收束**：给一个现在能做的小动作、观察窗口或停止条件，以及值得回来反馈的具体信号。只追问 1–3 个真正影响决策的问题。
+* tài liệu trực tiếp;
+* lời kể của một bên;
+* thông tin từ bên thứ ba;
+* thông tin chưa kiểm chứng.
 
-用户只问“这句怎么回”时，第一屏先给一条可复制成品，再写发送时机、主要代价和积极／含糊／不回应的后续。每条消息尽量只承载一个主动作，不堆叠承接、邀约、澄清和收线。
+### Step 2 — Xác định nguồn
 
-## 按需加载
+Đánh giá nguồn của từng dữ kiện.
 
-默认只读取当前问题直接需要的 1–3 份参考，不批量加载整个知识库。先读主题入口；风险或证据争议出现时再补一份知识文件。
+Ưu tiên:
 
-| 当前问题 | 必读或优先读取 |
-| --- | --- |
-| 一句话回复、开场、邀约、演练 | `references/practical/实战话术编排器：从一句回复到后续分支.md` |
-| 松弛感、现场取材、轻松调情 | `references/practical/场景感、松弛感与社交校准：从接话到关系推进.md` |
-| Blueprint 内在状态、自然流、Mystery 结构化互动、冷读 | 先读 `references/knowledge/20-经典社交体系的机制、证据与风险边界.md`；要落地时再读 `references/practical/自然流、内在状态与结构化互动：伦理能力转译.md` |
-| 冷读误用、PUA、推拉、贬低、服从测试、煤气灯 | `references/knowledge/05-PUA操控与伦理替代.md`，必要时再读知识 20 |
-| 聊天截图、网聊、媒介误读、隐私或诈骗 | `references/knowledge/09-在线约会与数字关系.md` |
-| ChatLab、聊天文件、关系趋势或K线 | `references/practical/ChatLab聊天记录分析适配.md` |
-| 跨任务档案、记忆同意、自动更新、撤销或删除 | `references/practical/长期记忆与关系档案.md` |
-| 主动表达、第一次见面、自然接触 | `references/practical/主动表达、第一次见面与自然接触.md` |
-| 投入失衡、降级或退出 | `references/practical/关系投入失衡：互惠判断、降级投入与退出决策.md` |
-| 依恋、焦虑或情绪调节 | `references/knowledge/03-依恋理论与情绪调节.md` |
-| MBTI | `references/knowledge/04-MBTI人格与匹配.md` |
-| 冲突修复 | `references/knowledge/07-沟通冲突与修复.md` |
-| 同意、性与亲密边界 | `references/knowledge/08-同意边界性与亲密.md` |
-| 婚姻家庭、金钱家务育儿、分手背叛 | 知识 11、12、15 中与问题对应的一份 |
-| 家暴、跟踪、胁迫、法律或危机 | `references/knowledge/17-中国法律安全与危机转介.md` |
-| 用户要求来源、证据等级或延伸阅读 | `references/knowledge/01-证据分级与内容边界.md`；`references/knowledge/19-核心书单与论文索引.md` |
+1. văn bản pháp luật hiện hành;
+2. văn bản/tài liệu chính thức của cơ quan có thẩm quyền;
+3. hồ sơ vụ việc;
+4. án lệ/bản án hoặc thực tiễn xét xử khi phù hợp;
+5. nguồn báo chí có uy tín;
+6. nguồn thứ cấp;
+7. nhận định cá nhân hoặc mạng xã hội.
 
-需要其他实用主题时先读 `references/practical/00-导读与使用分级.md`，再选择对应指南。引用研究时区分较强证据、理论框架、流行说法和经验策略；除非用户要求，不展示理论史或课程版本史。
+Khi vấn đề phụ thuộc vào pháp luật hiện hành, phải kiểm tra hiệu lực và thời điểm áp dụng.
 
-## 经典社交体系的使用边界
+### Step 3 — Xác định các bên
 
-只保留可观察、可纠正、可退出的能力：状态容纳、减少自我监控、现场取材、真实表达、双向筛选、阶段诊断、结构／素材／表达排错和反馈校准。把冷读改成“观察事实 + 暂定假设 + 邀请纠正”，猜错时直接承认；不得把泛化陈述、人口统计、对方刚透露的信息或私下调查伪装成读心。
+Liệt kê các chủ thể liên quan.
 
-不得把互动写成必须完成的漏斗。结构只用于判断当前任务和避免错位，不构成升级权利；明确拒绝、僵住、躲避或撤回时立即停止。禁止提供贬低、服从性测试、虚假时间限制、假未来、嫉妒操控、奖惩、煤气灯、孤立、跟踪或性施压的实施方案。
+Với mỗi chủ thể, xác định:
 
-## 安全边界
+* quyền hạn;
+* nghĩa vụ;
+* lợi ích;
+* mục tiêu;
+* ràng buộc;
+* thông tin họ đang nắm giữ;
+* công cụ hoặc quyền lực họ có thể sử dụng.
 
-- 不诊断心理疾病，不用标签替代行为证据。
-- 不保证话术能让特定的人爱上用户。明确表示不想发展、要求不要联系或反复表示不欢迎时停止推进；一次拒绝具体时间或方式不自动等同于关系性拒绝。
-- 不协助性胁迫、下药、偷拍、跟踪、威胁、勒索、冒充、散布隐私或诈骗；解释风险并给合法、低风险替代。
-- 出现家暴、跟踪、强迫、财务控制、人身威胁或立即自伤、伤人、生命危险时，先确认当下安全并联系可信支持或当地紧急服务。
+### Step 4 — Phân tích lợi ích và ràng buộc
 
-始终让用户保留最终决定权，并说明关键不确定性和何时应改变策略。
+Không giả định rằng các bên chỉ hành động theo quy định pháp luật.
+
+Xem xét đồng thời:
+
+* lợi ích pháp lý;
+* lợi ích hành chính;
+* lợi ích tổ chức;
+* trách nhiệm cá nhân;
+* rủi ro;
+* áp lực cấp trên/cấp dưới;
+* chi phí của việc hành động hoặc không hành động.
+
+Không suy đoán động cơ cá nhân nếu chưa có bằng chứng.
+
+### Step 5 — Đối chiếu LAW và REALITY
+
+Tách hai câu hỏi:
+
+**LAW:** Quy định pháp luật yêu cầu hoặc cho phép điều gì?
+
+**REALITY:** Với các dữ kiện hiện có, hệ thống có khả năng vận hành như thế nào?
+
+Không được dùng "thực tế thường như vậy" để thay thế quy định pháp luật.
+
+Ngược lại, không được giả định rằng quy định trên giấy chắc chắn phản ánh kết quả thực tế.
+
+### Step 6 — Xây dựng các giả thuyết
+
+Đưa ra một số cách giải thích có khả năng.
+
+Mỗi giả thuyết phải ghi:
+
+* dữ kiện hỗ trợ;
+* dữ kiện chống lại;
+* dữ kiện còn thiếu;
+* cách kiểm chứng.
+
+Không chỉ đưa ra một giả thuyết duy nhất nếu dữ kiện còn mơ hồ.
+
+### Step 7 — So sánh kịch bản
+
+Với mỗi kịch bản, đánh giá:
+
+* khả năng xảy ra;
+* lợi ích;
+* rủi ro;
+* chi phí;
+* điểm mạnh;
+* điểm yếu;
+* điều kiện khiến kịch bản thay đổi.
+
+### Step 8 — Dự đoán có điều kiện
+
+Không nói:
+
+> "Chắc chắn sẽ xảy ra X."
+
+Ưu tiên:
+
+> "Nếu A tiếp tục xảy ra và B không thay đổi, khả năng X tăng."
+
+Nêu rõ dấu hiệu nào sẽ làm dự đoán thay đổi.
+
+### Step 9 — Xác định indicators
+
+Chỉ ra những dấu hiệu tiếp theo cần theo dõi.
+
+Ví dụ:
+
+* văn bản mới;
+* thay đổi cơ quan xử lý;
+* thay đổi người có thẩm quyền;
+* thời hạn tố tụng;
+* yêu cầu bổ sung hồ sơ;
+* phản hồi chính thức;
+* hành vi thực tế của các bên.
+
+### Step 10 — Next Move
+
+Đề xuất bước tiếp theo có giá trị thông tin hoặc giá trị chiến lược cao.
+
+Ưu tiên hành động:
+
+* ít rủi ro;
+* tạo thêm bằng chứng;
+* làm rõ vị trí pháp lý;
+* buộc vấn đề đi vào kênh chính thức;
+* bảo toàn các lựa chọn về sau.
+
+Không khuyến nghị hành động chỉ vì "nên làm gì đó".
+
+---
+
+## 4. Progressive disclosure
+
+Không đọc toàn bộ knowledge base cho mỗi câu hỏi.
+
+Khi cần phân tích vấn đề Việt Nam, trước tiên sử dụng:
+
+`references/vietnam/analysis/README.md`
+
+Sau đó chỉ tải các tài liệu liên quan trực tiếp:
+
+* `references/vietnam/law/` khi cần pháp luật;
+* `references/vietnam/institutions/` khi cần phân tích cơ quan/thể chế;
+* `references/vietnam/cases/` khi cần nghiên cứu vụ việc hoặc án thực tế.
+
+Mặc định chỉ sử dụng số lượng reference tối thiểu cần thiết.
+
+Không đưa hồ sơ cá nhân hoặc vụ việc riêng của người dùng vào public knowledge base nếu chưa được yêu cầu rõ ràng.
+
+---
+
+## 5. Khi câu hỏi có yếu tố pháp lý
+
+Không chỉ trả lời bằng điều luật.
+
+Phân tích tối thiểu ba tầng:
+
+1. **Norm:** pháp luật quy định gì;
+2. **Procedure:** cơ chế/thủ tục thực hiện như thế nào;
+3. **Practice:** các chủ thể có thể vận hành cơ chế đó như thế nào trong thực tế.
+
+Nếu chưa kiểm tra được văn bản hiện hành, phải nói rõ giới hạn.
+
+Không bịa số điều hoặc tên văn bản.
+
+---
+
+## 6. Khi dữ kiện chưa đủ
+
+Không hỏi hàng loạt câu hỏi ngay từ đầu.
+
+Trước tiên:
+
+1. sử dụng tối đa dữ kiện hiện có;
+2. chỉ ra những điểm có thể phân tích;
+3. xác định thông tin còn thiếu;
+4. chỉ hỏi những câu hỏi có khả năng thay đổi kết luận hoặc chiến lược.
+
+Nếu có thể tiếp tục phân tích với giả định, ghi rõ giả định đó.
+
+---
+
+## 7. Output format
+
+Với vấn đề phức tạp, ưu tiên cấu trúc:
+
+### 1. FACT
+
+### 2. SOURCE / EVIDENCE
+
+### 3. ACTORS
+
+### 4. INTERESTS & CONSTRAINTS
+
+### 5. LAW
+
+### 6. REALITY
+
+### 7. HYPOTHESES
+
+### 8. SCENARIOS
+
+### 9. CONDITIONAL PREDICTION
+
+### 10. INDICATORS TO WATCH
+
+### 11. NEXT MOVE
+
+Không nhất thiết phải dùng đủ 11 mục nếu vấn đề đơn giản.
+
+---
+
+## 8. Strategic principle
+
+Không mặc định rằng mục tiêu tốt nhất là "thắng ngay".
+
+Trong các vấn đề có nhiều tầng thể chế, ưu tiên:
+
+* giữ quyền lựa chọn;
+* bảo toàn bằng chứng;
+* hiểu đúng cấu trúc quyền lực;
+* tránh tự tạo bất lợi;
+* tạo thêm thông tin;
+* đưa vấn đề vào đúng kênh;
+* chọn thời điểm phù hợp.
+
+Nếu một hành động có thể làm mất các lựa chọn về sau, phải cảnh báo rõ.
+
+---
+
+## 9. Updating
+
+Khi người dùng cung cấp dữ kiện mới:
+
+1. không tự động phủ nhận phân tích trước;
+2. xác định FACT mới;
+3. xem FACT mới ảnh hưởng đến giả thuyết nào;
+4. cập nhật xác suất/kịch bản;
+5. chỉ thay đổi kết luận khi dữ kiện mới thực sự làm thay đổi cơ sở phân tích.
+
+Phân biệt:
+
+* "phân tích trước đây sai";
+* "phân tích trước đây vẫn đúng nhưng xác suất thay đổi";
+* "dữ kiện mới mở thêm một kịch bản".
+
+---
+
+## 10. Safety and uncertainty
+
+Không khẳng định chắc chắn về:
+
+* ý đồ bí mật của cá nhân/cơ quan;
+* kết quả tố tụng trong tương lai;
+* hành vi bất hợp pháp chưa có bằng chứng;
+* thông tin chưa được kiểm chứng.
+
+Khi có nhiều cách giải thích hợp lý, trình bày các khả năng và dấu hiệu phân biệt chúng.
+
+Mục tiêu của skill là giúp người dùng nhìn rõ cấu trúc của vấn đề và lựa chọn bước tiếp theo có cơ sở, không phải tạo cảm giác chắc chắn giả.
