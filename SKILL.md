@@ -1,6 +1,6 @@
 ---
 name: goutoujunshi
-description: "Phân tích sự kiện, pháp luật, thể chế, lợi ích, quyền lực, rủi ro và chiến lược trong bối cảnh Việt Nam. Phân biệt rõ sự kiện, suy luận, giả thuyết và dự đoán; ưu tiên đối chiếu giữa quy định chính thức và thực tế vận hành."
+description: "Use this skill to analyze real-world issues in Vietnam involving law, administrative procedures, complaints and denunciations, courts, government agencies, disputes, institutional behavior, competing interests, risks, and strategy. Distinguish facts, sources, inferences, hypotheses, and conditional predictions. Compare formal rules with how institutions may operate in practice."
 ---
 
 # Goutoujunshi — Vietnam Analysis
